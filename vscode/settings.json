@@ -1,0 +1,112 @@
+{
+	// Epitech settings
+	"epitech-c-cpp-headers.username": "Reza Rahemtola",
+	"epitech-c-cpp-headers.login": "reza.rahemtola@epitech.eu",
+	"epitech-c-cpp-headers.headerType": "post2017",
+	"epitech-c-cpp-headers.usePragmaOnce": true,
+	"epitech-c-cpp-headers.autoGenerateClasses": false,
+	"editor.rulers": [80],
+
+
+	// Git
+	"git.confirmSync": false,
+	"git.autoStash": true,
+	"git.fetchOnPull": true,
+	"git.autofetch": "all",
+	"git.autofetchPeriod": 600,
+	"git.postCommitCommand": "push",
+
+
+	// Editor
+	"editor.inlineSuggest.enabled": true,
+	"editor.bracketPairColorization.enabled": false,
+	"editor.minimap.enabled": false,
+	"editor.linkedEditing": true,
+	"editor.codeActionsOnSave": [
+		"addMissingImports",
+		"source.organizeImports",
+		"source.fixAll"
+	],
+
+
+	// Files
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"files.autoSave": "onFocusChange",
+	"files.exclude": {
+		"**/*.gcda": true,
+		"**/*.gcno": true,
+		"**/*.o": true,
+		"**/unit_tests": true
+	},
+
+
+	// VSCode
+	"update.mode": "start",
+	"telemetry.telemetryLevel": "off",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"explorer.confirmDragAndDrop": false,
+
+
+	// Language specific settings
+	"javascript.suggest.paths": false,
+	"typescript.suggest.paths": false,
+	"[javascript][typescript][javascriptreact][typescriptreact]": {
+		"editor.tabSize": 2,
+		"editor.insertSpaces": false,
+		"editor.detectIndentation": false,
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[markdown][plaintext]": {
+		"files.trimFinalNewlines": false,
+		"files.insertFinalNewline": false,
+		"files.trimTrailingWhitespace": false
+	},
+
+
+	// --- Extensions settings ---
+
+	// ESLint
+	"eslint.validate": ["javascript", "vue", "typescript"],
+
+	// Sonarlint
+	"sonarlint.disableTelemetry": true,
+
+	// Trailing Spaces
+	"trailing-spaces.highlightCurrentLine": false,
+
+	// Live Server
+	"liveServer.settings.donotShowInfoMsg": true,
+
+	// Path Intellisense
+	"path-intellisense.showHiddenFiles": true,
+	"path-intellisense.autoSlashAfterDirectory": true,
+
+	// Gitlens
+	"gitlens.views.showRelativeDateMarkers": false,
+	"gitlens.views.commits.avatars": false,
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.currentLine.pullRequests.enabled": false,
+	"gitlens.currentLine.enabled": false,
+	"gitlens.codeLens.enabled": false,
+	"gitlens.statusBar.pullRequests.enabled": false,
+	"gitlens.hovers.currentLine.enabled": false,
+
+	// C / C++
+	"C_Cpp.autocompleteAddParentheses": true,
+	"C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
+	"C_Cpp.vcFormat.newLine.beforeElse": false,
+
+	// GitHub Copilot
+	"github.copilot.enable": {
+		"[markdown][plaintext][json][yaml][jsonc]": false
+	},
+
+	// Python
+	"python.analysis.typeCheckingMode": "basic",
+	"python.analysis.completeFunctionParens": true,
+	"python.experiments.enabled": false
+}
