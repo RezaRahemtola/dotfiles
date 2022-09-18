@@ -1,0 +1,17 @@
+[user]
+	name = Reza Rahemtola
+	email = reza.rahemtola@epitech.eu
+	signingkey = 7F008C62337360ED
+[core]
+	excludesfile = ~/.gitignore
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true
+	default = current
+[fetch]
+	prune = true
