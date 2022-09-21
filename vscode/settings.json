@@ -48,6 +48,7 @@
 	"diffEditor.ignoreTrimWhitespace": false,
 	"workbench.iconTheme": "material-icon-theme",
 	"explorer.confirmDragAndDrop": false,
+	"terminal.integrated.defaultProfile.linux": "fish",
 
 
 	// Language specific settings
@@ -108,5 +109,8 @@
 	// Python
 	"python.analysis.typeCheckingMode": "basic",
 	"python.analysis.completeFunctionParens": true,
-	"python.experiments.enabled": false
+	"python.experiments.enabled": false,
+
+	// Code Spell Checker
+	"cSpell.showStatus": false
 }
