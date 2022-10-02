@@ -112,5 +112,6 @@
 	"python.experiments.enabled": false,
 
 	// Code Spell Checker
-	"cSpell.showStatus": false
+	"cSpell.showStatus": false,
+	"cSpell.enabledLanguageIds": ["markdown", "plaintext"]
 }
