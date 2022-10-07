@@ -1,0 +1,10 @@
+# Git
+abbr -a -U -- ga 'git add -u'
+abbr -a -U -- gcm 'git commit -m'
+abbr -a -U -- gca 'git commit --amend --no-edit'
+abbr -a -U -- gs 'git status'
+abbr -a -U -- gp 'git push'
+abbr -a -U -- gpl 'git pull'
+abbr -a -U -- gsw 'git switch'
+abbr -a -U -- gb 'git branch'
+abbr -a -U -- gf 'git fetch'

@@ -2,15 +2,10 @@ set -U fish_greeting ""
 set -x EDITOR nano
 set -x VISUAL code
 
-# Git abbreviations
-abbr -a -U -- ga 'git add -u'
-abbr -a -U -- gcm 'git commit -m'
-abbr -a -U -- gca 'git commit --amend --no-edit'
-abbr -a -U -- gs 'git status'
-abbr -a -U -- gp 'git push'
-abbr -a -U -- gpl 'git pull'
-abbr -a -U -- gsw 'git switch'
 
+if status is-interactive
+  source ~/.config/fish/abbreviations.fish
+end
 
 # --- Aliases ---
 
