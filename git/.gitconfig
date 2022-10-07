@@ -4,6 +4,10 @@
 	signingkey = 7F008C62337360ED
 [core]
 	excludesfile = ~/.gitignore
+
+	# Speed up commands involving untracked files such as git status.
+	# See https://git-scm.com/docs/git-update-index#_untracked_cache
+	untrackedCache = true
 [init]
 	defaultBranch = main
 [commit]
@@ -13,5 +17,6 @@
 [push]
 	autoSetupRemote = true
 	default = current
-[fetch]
-	prune = true
+[rebase]
+	# Create a temporary stash entry before the operation begins.
+	autostash = true
