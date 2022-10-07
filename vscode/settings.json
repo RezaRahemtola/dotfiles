@@ -66,6 +66,7 @@
 		"files.insertFinalNewline": false,
 		"files.trimTrailingWhitespace": false
 	},
+	"markdown.validate.enabled": true,
 
 
 	// --- Extensions settings ---
