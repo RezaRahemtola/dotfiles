@@ -2,8 +2,10 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_ga:git\x20add\x20\x2du
+SETUVAR _fish_abbr_gb:git\x20branch
 SETUVAR _fish_abbr_gca:git\x20commit\x20\x2d\x2damend\x20\x2d\x2dno\x2dedit
 SETUVAR _fish_abbr_gcm:git\x20commit\x20\x2dm
+SETUVAR _fish_abbr_gf:git\x20fetch
 SETUVAR _fish_abbr_gp:git\x20push
 SETUVAR _fish_abbr_gpl:git\x20pull
 SETUVAR _fish_abbr_gs:git\x20status
