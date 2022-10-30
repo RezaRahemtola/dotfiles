@@ -22,6 +22,7 @@
 	"editor.bracketPairColorization.enabled": false,
 	"editor.minimap.enabled": false,
 	"editor.linkedEditing": true,
+	"editor.stickyScroll.enabled": true,
 	"editor.codeActionsOnSave": [
 		"addMissingImports",
 		"source.organizeImports",
@@ -52,8 +53,7 @@
 
 
 	// Language specific settings
-	"javascript.suggest.paths": false,
-	"typescript.suggest.paths": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
 	"[javascript][typescript][javascriptreact][typescriptreact]": {
 		"editor.tabSize": 2,
 		"editor.insertSpaces": false,
@@ -120,5 +120,5 @@
 	"cSpell.enabledLanguageIds": ["markdown", "plaintext"],
 
 	// Svelte
-	"svelte.enable-ts-plugin": true,
+	"svelte.enable-ts-plugin": true
 }
