@@ -59,9 +59,7 @@
 	"[javascript][typescript][javascriptreact][typescriptreact]": {
 		"editor.tabSize": 2,
 		"editor.insertSpaces": false,
-		"editor.detectIndentation": false,
-		"editor.formatOnSave": true,
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.detectIndentation": false
 	},
 
 	// Go
