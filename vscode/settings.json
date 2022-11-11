@@ -3,37 +3,34 @@
 	"epitech-c-cpp-headers.username": "Reza Rahemtola",
 	"epitech-c-cpp-headers.login": "reza.rahemtola@epitech.eu",
 	"epitech-c-cpp-headers.headerType": "post2017",
-	"epitech-c-cpp-headers.usePragmaOnce": true,
 	"epitech-c-cpp-headers.autoGenerateClasses": false,
+	"epitech-c-cpp-headers.usePragmaOnce": true,
 	"editor.rulers": [80],
 
 
 	// Git
-	"git.confirmSync": false,
-	"git.autoStash": true,
-	"git.fetchOnPull": true,
 	"git.autofetch": "all",
 	"git.autofetchPeriod": 600,
+	"git.autoStash": true,
+	"git.confirmSync": false,
+	"git.fetchOnPull": true,
 	"git.postCommitCommand": "push",
 
 
 	// Editor
-	"editor.inlineSuggest.enabled": true,
 	"editor.bracketPairColorization.enabled": false,
-	"editor.minimap.enabled": false,
-	"editor.linkedEditing": true,
-	"editor.stickyScroll.enabled": true,
 	"editor.codeActionsOnSave": [
 		"addMissingImports",
 		"source.organizeImports",
 		"source.fixAll"
 	],
+	"editor.inlineSuggest.enabled": true,
+	"editor.linkedEditing": true,
+	"editor.minimap.enabled": false,
+	"editor.stickyScroll.enabled": true,
 
 
 	// Files
-	"files.trimFinalNewlines": true,
-	"files.trimTrailingWhitespace": true,
-	"files.insertFinalNewline": true,
 	"files.autoSave": "onFocusChange",
 	"files.exclude": {
 		"**/*.gcda": true,
@@ -41,15 +38,18 @@
 		"**/*.o": true,
 		"**/unit_tests": true
 	},
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
 
 
 	// VSCode
-	"update.mode": "start",
-	"telemetry.telemetryLevel": "off",
 	"diffEditor.ignoreTrimWhitespace": false,
-	"workbench.iconTheme": "material-icon-theme",
 	"explorer.confirmDragAndDrop": false,
+	"telemetry.telemetryLevel": "off",
 	"terminal.integrated.defaultProfile.linux": "fish",
+	"update.mode": "start",
+	"workbench.iconTheme": "material-icon-theme",
 
 
 	// --- Language specific settings ---
@@ -58,8 +58,8 @@
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"[javascript][typescript][javascriptreact][typescriptreact]": {
 		"editor.tabSize": 2,
-		"editor.insertSpaces": false,
-		"editor.detectIndentation": false
+		"editor.detectIndentation": false,
+		"editor.insertSpaces": false
 	},
 
 	// Go
@@ -91,8 +91,8 @@
 
 	// C / C++
 	"C_Cpp.autocompleteAddParentheses": true,
-	"C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
 	"C_Cpp.vcFormat.newLine.beforeElse": false,
+	"C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
 
 
 	// --- Extensions settings ---
@@ -110,8 +110,8 @@
 	"liveServer.settings.donotShowInfoMsg": true,
 
 	// Path Intellisense
-	"path-intellisense.showHiddenFiles": true,
 	"path-intellisense.autoSlashAfterDirectory": true,
+	"path-intellisense.showHiddenFiles": true,
 
 	// Gitlens
 	"gitlens.codeLens.enabled": false,
@@ -130,9 +130,9 @@
 	},
 
 	// Code Spell Checker
-	"cSpell.showStatus": false,
 	"cSpell.enabledLanguageIds": [
 		"markdown",
 		"plaintext"
-	]
+	],
+	"cSpell.showStatus": false
 }
