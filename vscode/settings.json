@@ -30,6 +30,11 @@
 	"editor.stickyScroll.enabled": true,
 
 
+	// Explorer
+	"explorer.confirmDragAndDrop": false,
+	"explorer.incrementalNaming": "smart",
+
+
 	// Files
 	"files.autoSave": "onFocusChange",
 	"files.exclude": {
@@ -45,7 +50,6 @@
 
 	// VSCode
 	"diffEditor.ignoreTrimWhitespace": false,
-	"explorer.confirmDragAndDrop": false,
 	"telemetry.telemetryLevel": "off",
 	"terminal.integrated.defaultProfile.linux": "fish",
 	"update.mode": "start",
@@ -56,14 +60,15 @@
 
 	// TypeScript / JavaScript
 	"typescript.updateImportsOnFileMove.enabled": "always",
-	"[javascript][typescript][javascriptreact][typescriptreact]": {
-		"editor.tabSize": 2,
-		"editor.detectIndentation": false,
-		"editor.insertSpaces": false
+	"[typescript][javascript][typescriptreact][javascriptreact]": {
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2
 	},
 
 	// Go
 	"go.toolsManagement.autoUpdate": true,
+	"go.survey.prompt": false,
 
 	// Python
 	"[python]": {
@@ -98,7 +103,7 @@
 	// --- Extensions settings ---
 
 	// ESLint
-	"eslint.validate": ["javascript", "vue", "typescript"],
+	"eslint.validate": ["typescript", "javascript", "vue"],
 
 	// Sonarlint
 	"sonarlint.disableTelemetry": true,
