@@ -9,4 +9,10 @@
         "command": "editor.action.quickFix",
         "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
     },
+
+    // Useful shortcuts
+    {
+        "key": "alt+r",
+        "command": "workbench.action.reloadWindow"
+    }
 ]
