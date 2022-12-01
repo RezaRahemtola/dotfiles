@@ -72,7 +72,8 @@
 
 	// Python
 	"[python]": {
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.tabSize": 4
 	},
 	"python.analysis.completeFunctionParens": true,
 	"python.experiments.enabled": false,
@@ -93,6 +94,18 @@
 		"files.trimTrailingWhitespace": false
 	},
 	"markdown.validate.enabled": true,
+
+	// Dart
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": false
+	},
 
 	// C / C++
 	"C_Cpp.autocompleteAddParentheses": true,
