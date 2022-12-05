@@ -11,6 +11,7 @@
 [alias]
 	l = log -10 --graph --pretty=format:'%C(auto)%h%Creset%C(auto)%d%Creset %s %Cgreen(%cr) %C(magenta)<%an>%Creset'
 	la = log --all --graph --pretty=format:'%C(auto)%h%Creset%C(auto)%d%Creset %s %Cgreen(%cr) %C(magenta)<%an>%Creset'
+	fixup = "!f() { SHA=`git rev-parse \"$1\"`; git commit --fixup \"$SHA\" && GIT_SEQUENCE_EDITOR=true git rebase --interactive --autosquash \"$SHA^\"; }; f"
 [init]
 	defaultBranch = main
 [commit]
