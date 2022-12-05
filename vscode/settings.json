@@ -95,6 +95,12 @@
 	},
 	"markdown.validate.enabled": true,
 
+	// JSON
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features",
+		"editor.formatOnSave": true
+	},
+
 	// Dart
 	"[dart]": {
 		"editor.formatOnSave": true,
