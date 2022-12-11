@@ -17,6 +17,10 @@
 	"git.postCommitCommand": "push",
 
 
+	// GitHub
+	"github.gitProtocol": "ssh",
+
+
 	// Editor
 	"editor.bracketPairColorization.enabled": false,
 	"editor.codeActionsOnSave": [
