@@ -1,5 +1,6 @@
 # Git
 abbr -a -U -- ga 'git add -u'
+abbr -a -U -- gaa 'git add --all'
 abbr -a -U -- gb 'git branch'
 abbr -a -U -- gca 'git commit --amend --no-edit'
 abbr -a -U -- gcm 'git commit -m'
