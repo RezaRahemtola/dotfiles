@@ -6,6 +6,27 @@
 	"epitech-c-cpp-headers.autoGenerateClasses": false,
 	"epitech-c-cpp-headers.usePragmaOnce": true,
 	"editor.rulers": [80],
+	"psi-header.changes-tracking.autoHeader": "autoSave",
+	"psi-header.lang-config": [
+		{
+			"language": "Haskell",
+			"begin": "{-",
+			"prefix": "-- ",
+			"end": "-}",
+			"blankLinesAfter": 1
+		}
+	],
+	"psi-header.templates": [
+        {
+            "language": "Haskell",
+            "template": [
+                "EPITECH PROJECT, <<year>>",
+                "<<projectname>>",
+                "File description:",
+                "$DESCRIPTION"
+            ]
+        }
+    ],
 
 
 	// Git
