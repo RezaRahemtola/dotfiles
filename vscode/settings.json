@@ -54,6 +54,7 @@
 
 	// VSCode
 	"diffEditor.ignoreTrimWhitespace": false,
+	"redhat.telemetry.enabled": false,
 	"telemetry.telemetryLevel": "off",
 	"terminal.integrated.defaultProfile.linux": "fish",
 	"update.mode": "start",
@@ -121,6 +122,9 @@
 	"C_Cpp.autocompleteAddParentheses": true,
 	"C_Cpp.vcFormat.newLine.beforeElse": false,
 	"C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
+
+	// Haskell
+	"haskell.manageHLS": "GHCup",
 
 
 	// --- Extensions settings ---
