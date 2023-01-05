@@ -6,7 +6,6 @@
 	"epitech-c-cpp-headers.autoGenerateClasses": false,
 	"epitech-c-cpp-headers.usePragmaOnce": true,
 	"editor.rulers": [80],
-	"psi-header.changes-tracking.autoHeader": "autoSave",
 	"psi-header.lang-config": [
 		{
 			"language": "Haskell",
@@ -146,6 +145,10 @@
 
 	// Haskell
 	"haskell.manageHLS": "GHCup",
+	"haskell.formattingProvider": "floskell",
+	"[haskell]": {
+		"editor.formatOnSave": true
+	},
 
 
 	// --- Extensions settings ---
