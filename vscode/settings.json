@@ -1,10 +1,5 @@
 {
 	// Epitech settings
-	"epitech-c-cpp-headers.username": "Reza Rahemtola",
-	"epitech-c-cpp-headers.login": "reza.rahemtola@epitech.eu",
-	"epitech-c-cpp-headers.headerType": "post2017",
-	"epitech-c-cpp-headers.autoGenerateClasses": false,
-	"epitech-c-cpp-headers.usePragmaOnce": true,
 	"editor.rulers": [80],
 	"psi-header.lang-config": [
 		{
@@ -13,11 +8,26 @@
 			"prefix": "-- ",
 			"end": "-}",
 			"blankLinesAfter": 1
+		},
+		{
+			"language": "C",
+			"begin": "/*",
+			"prefix": "** ",
+			"end": "*/"
 		}
 	],
 	"psi-header.templates": [
         {
             "language": "Haskell",
+            "template": [
+                "EPITECH PROJECT, <<year>>",
+                "<<projectname>>",
+                "File description:",
+                "$DESCRIPTION"
+            ]
+        },
+		{
+            "language": "C",
             "template": [
                 "EPITECH PROJECT, <<year>>",
                 "<<projectname>>",
@@ -142,6 +152,9 @@
 	"C_Cpp.autocompleteAddParentheses": true,
 	"C_Cpp.vcFormat.newLine.beforeElse": false,
 	"C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
+	"[c]": {
+		"editor.tabSize": 4
+	},
 
 	// Haskell
 	"haskell.manageHLS": "GHCup",
