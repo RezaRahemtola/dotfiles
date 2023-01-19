@@ -14,6 +14,12 @@
 			"begin": "/*",
 			"prefix": "** ",
 			"end": "*/"
+		},
+		{
+			"language": "cpp",
+			"begin": "/*",
+			"prefix": "** ",
+			"end": "*/"
 		}
 	],
 	"psi-header.templates": [
@@ -28,6 +34,15 @@
         },
 		{
             "language": "C",
+            "template": [
+                "EPITECH PROJECT, <<year>>",
+                "<<projectname>>",
+                "File description:",
+                "$DESCRIPTION"
+            ]
+        },
+		{
+            "language": "cpp",
             "template": [
                 "EPITECH PROJECT, <<year>>",
                 "<<projectname>>",
