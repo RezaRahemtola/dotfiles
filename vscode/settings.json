@@ -113,8 +113,10 @@
 	"C_Cpp.autocompleteAddParentheses": true,
 	"C_Cpp.vcFormat.newLine.beforeElse": false,
 	"C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
-	"[c]": {
-		"editor.tabSize": 4
+	"C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "newLine",
+	"[c][cpp]": {
+		"editor.tabSize": 4,
+		"editor.defaultFormatter": "ms-vscode.cpptools"
 	},
 
 	// Haskell
@@ -222,5 +224,5 @@
                 "$DESCRIPTION"
             ]
         }
-    ],
+	]
 }
