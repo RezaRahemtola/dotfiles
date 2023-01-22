@@ -5,6 +5,10 @@
         "command": "workbench.action.quickOpen"
     },
     {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.openSettings"
+    },
+    {
         "key": "alt+enter",
         "command": "editor.action.quickFix",
         "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
