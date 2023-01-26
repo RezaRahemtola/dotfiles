@@ -1,25 +1,78 @@
 [
-    // JetBrains replicated keybindings
+    // --- JetBrains replicated keybindings ---
+
+    // Quick open
     {
         "key": "shift shift",
         "command": "workbench.action.quickOpen"
     },
+
+    // Settings
     {
         "key": "ctrl+alt+s",
         "command": "workbench.action.openSettings"
     },
+
+    // Terminal
     {
         "key": "alt+f12",
         "command": "workbench.action.terminal.toggleTerminal",
         "when": "terminal.active"
     },
+
+    // Quickfix
     {
         "key": "alt+enter",
         "command": "editor.action.quickFix",
         "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
     },
 
-    // Useful shortcuts
+    // Move code block
+    {
+        "key": "ctrl+shift+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+down",
+        "command": "-editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+up",
+        "command": "-editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+
+    // Clone carret
+    {
+        "key": "shift+alt+pagedown",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "-editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+pageup",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+
+
+    // --- Useful shortcuts ---
     {
         "key": "alt+r",
         "command": "workbench.action.reloadWindow"
