@@ -10,7 +10,7 @@ end
 # --- Aliases ---
 
 # Epitech aliases
-alias epitest='docker run --rm -it -v $PWD:/home/ -w /home epitechcontent/epitest-docker /bin/bash --network none'
+alias epitest='docker run --rm -it -v $PWD:/home/ -w /home --network none epitechcontent/epitest-docker /bin/bash'
 
 # Utils aliases
 alias sn='shutdown now'
