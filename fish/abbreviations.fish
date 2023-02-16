@@ -16,3 +16,6 @@ abbr -a -U -- gst 'git stash push -um'
 abbr -a -U -- gstl 'git stash list'
 abbr -a -U -- gstp 'git stash pop'
 abbr -a -U -- gsw 'git switch'
+
+# Docker
+abbr -a -U -- docc 'docker compose'
