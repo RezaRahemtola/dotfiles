@@ -46,6 +46,9 @@
 	// VSCode
 	"diffEditor.ignoreTrimWhitespace": false,
 	"redhat.telemetry.enabled": false,
+	"search.exclude": {
+		"**/venv": true
+	},
 	"telemetry.telemetryLevel": "off",
 	"terminal.integrated.defaultProfile.linux": "fish",
 	"update.mode": "start",
