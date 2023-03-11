@@ -71,6 +71,17 @@
         "when": "editorTextFocus"
     },
 
+    // Duplicate line
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.duplicateSelection"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+
 
     // --- Useful shortcuts ---
     {
