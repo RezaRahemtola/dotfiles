@@ -13,3 +13,6 @@ ln -s $(pwd)/vscode/keybindings.json ~/.config/Code/User/keybindings.json
 
 rm -rf ~/.config/fish
 ln -s $(pwd)/fish ~/.config/fish
+
+rm -rf ~/.tmux.conf
+ln -s $(pwd)/tmux/tmux.conf ~/.tmux.conf
