@@ -11,6 +11,7 @@ Some of my personal dotfiles.
 - [Fish](./fish)
   - Enhanced with [plugins](./fish/fish_plugins)
   - Custom git [abbreviations](./fish/abbreviations.fish)
+- [tmux](./tmux/)
 
 ## Installation
 
