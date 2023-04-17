@@ -5,6 +5,7 @@
 	"git.autoStash": true,
 	"git.confirmSync": false,
 	"git.fetchOnPull": true,
+	"git.openRepositoryInParentFolders": "always",
 	"git.postCommitCommand": "push",
 
 
