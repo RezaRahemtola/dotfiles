@@ -25,3 +25,12 @@ set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; se
 
 # Scaleway CLI autocomplete initialization.
 eval (scw autocomplete script shell=fish)
+
+
+
+# Launch tmux if not already in a tmux session or inside a terminal integration (VSCode, JetBrains, etc.)
+if status is-interactive
+and not set -q TMUX
+and not set -q TERM_PROGRAM
+  exec tmux
+end
