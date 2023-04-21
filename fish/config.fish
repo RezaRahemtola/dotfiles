@@ -14,7 +14,7 @@ alias epitest='docker run --rm -it -v $PWD:/home/ -w /home --network none epitec
 
 # Utils aliases
 alias sn='shutdown now'
-alias e='exit'
+alias e='clear && exit'
 alias u='sudo dnf upgrade && sudo dnf autoremove -y'
 
 
@@ -32,5 +32,5 @@ eval (scw autocomplete script shell=fish)
 if status is-interactive
 and not set -q TMUX
 and not set -q TERM_PROGRAM
-  exec tmux
+  exec tmux new-session -A -s main
 end
