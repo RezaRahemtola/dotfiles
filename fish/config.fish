@@ -18,6 +18,13 @@ alias e='clear && exit'
 alias u='sudo dnf upgrade && sudo dnf autoremove -y'
 
 
+# -- Keybindings --
+
+# History search (default binding used in tmux)
+bind -k ppage history-token-search-backward
+bind -k npage history-token-search-forward
+
+
 # --- Others ---
 
 # Haskell
@@ -25,8 +32,6 @@ set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; se
 
 # Scaleway CLI autocomplete initialization.
 eval (scw autocomplete script shell=fish)
-
-
 
 # Launch tmux if not already in a tmux session or inside a terminal integration (VSCode, JetBrains, etc.)
 if status is-interactive
