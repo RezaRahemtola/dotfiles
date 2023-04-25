@@ -43,6 +43,7 @@
 		"**/*.gcda": true,
 		"**/*.gcno": true,
 		"**/*.o": true,
+		"**/.idea": true,
 		"**/unit_tests": true
 	},
 	"files.insertFinalNewline": true,
