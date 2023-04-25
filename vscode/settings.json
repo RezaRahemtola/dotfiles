@@ -28,6 +28,12 @@
 
 	// Explorer
 	"explorer.confirmDragAndDrop": false,
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		".env": ".env.*",
+		".gitignore": ".gitignore, .dockerignore",
+		"vite.config.ts": "vite.config.ts, vite.config.js, vitest.config.ts, vitest.config.js"
+	},
 	"explorer.incrementalNaming": "smart",
 
 
