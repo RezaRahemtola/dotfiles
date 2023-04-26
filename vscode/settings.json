@@ -182,6 +182,12 @@
 		"plaintext"
 	],
 	"cSpell.showStatus": false,
+	"cSpell.userWords": [
+		"dotfiles",
+		"quickstart",
+		"Rahemtola",
+		"Reza"
+	],
 
 
 	// --- Epitech settings ---
