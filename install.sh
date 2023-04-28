@@ -16,3 +16,7 @@ ln -s $(pwd)/fish ~/.config/fish
 
 rm -rf ~/.tmux.conf
 ln -s $(pwd)/tmux/tmux.conf ~/.tmux.conf
+
+
+# Set time locale to have monday as first day of the week
+localectl set-locale LC_TIME=en_DK.UTF-8
