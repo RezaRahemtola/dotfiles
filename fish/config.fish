@@ -36,7 +36,7 @@ eval (scw autocomplete script shell=fish)
 # Launch tmux if not already in a tmux session or inside a terminal integration (VSCode, JetBrains, etc.)
 if status is-interactive
 and not set -q TMUX
-and not set -q TERM_PROGRAM
+and test "$TERM_PROGRAM" != "vscode"
 and test "$TERMINAL_EMULATOR" != "JetBrains-JediTerm"
   exec tmux new-session -A -s main
 end
