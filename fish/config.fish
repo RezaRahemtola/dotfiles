@@ -37,5 +37,6 @@ eval (scw autocomplete script shell=fish)
 if status is-interactive
 and not set -q TMUX
 and not set -q TERM_PROGRAM
+and test "$TERMINAL_EMULATOR" != "JetBrains-JediTerm"
   exec tmux new-session -A -s main
 end
