@@ -12,6 +12,7 @@ Some of my personal dotfiles.
   - Enhanced with [plugins](./fish/fish_plugins)
   - Custom git [abbreviations](./fish/abbreviations.fish)
 - [tmux](./tmux/)
+  - Enhanced with plugins using [tpm](https://github.com/tmux-plugins/tpm)
 
 ## Installation
 
