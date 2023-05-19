@@ -13,6 +13,8 @@ Some of my personal dotfiles.
   - Custom git [abbreviations](./fish/abbreviations.fish)
 - [tmux](./tmux/)
   - Enhanced with plugins using [tpm](https://github.com/tmux-plugins/tpm)
+- [xkb](./xkb/) custom keyboard layout
+  - `English (US, intl., with dead keys)` [quotes "" access simplified](./xkb/us#L128)
 
 ## Installation
 
