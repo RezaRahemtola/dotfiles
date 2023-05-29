@@ -8,6 +8,7 @@ Some of my personal dotfiles.
   - Great [settings](./vscode/settings.json) for TypeScript, Python, Go, Markdown and more
   - [Keybindings](./vscode/keybindings.json) with JetBrains support
 - [Git](./git)
+  - [delta](https://github.com/dandavison/delta) - Diff tool with syntax highlighting
 - [Fish](./fish)
   - Enhanced with [plugins](./fish/fish_plugins)
   - Custom git [abbreviations](./fish/abbreviations.fish)

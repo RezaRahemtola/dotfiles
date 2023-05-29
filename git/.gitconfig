@@ -2,26 +2,41 @@
 	name = Reza Rahemtola
 	email = reza.rahemtola@epitech.eu
 	signingkey = 7F008C62337360ED
+
 [core]
 	excludesfile = ~/.gitignore
-
-	# Speed up commands involving untracked files such as git status.
-	# See https://git-scm.com/docs/git-update-index#_untracked_cache
-	untrackedCache = true
+	untrackedCache = true  # Speed up commands involving untracked files such as git status. See https://git-scm.com/docs/git-update-index#_untracked_cache
 	editor = nano
+	pager = delta
+
 [alias]
 	l = log -10 --graph --pretty=format:'%C(auto)%h%Creset%C(auto)%d%Creset %s %Cgreen(%cr) %C(magenta)<%an>%Creset'
 	la = log --all --graph --pretty=format:'%C(auto)%h%Creset%C(auto)%d%Creset %s %Cgreen(%cr) %C(magenta)<%an>%Creset'
 	fixup = "!f() { SHA=`git rev-parse \"$1\"`; git commit --fixup \"$SHA\" && GIT_SEQUENCE_EDITOR=true git rebase --interactive --autosquash \"$SHA^\"; }; f"
+
 [init]
 	defaultBranch = main
+
+[diff]
+	colorMoved = default
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true  # use n and N to move between diff sections
+	light = false  # set to true if you're in a terminal w/ a light background color
+	line-numbers = true
+
 [commit]
 	gpgsign = true
+
 [pull]
 	rebase = true
+
 [push]
 	autoSetupRemote = true
 	default = current
+
 [rebase]
-	# Create a temporary stash entry before the operation begins.
-	autostash = true
+	autostash = true  # Create a temporary stash entry before the operation begins.
