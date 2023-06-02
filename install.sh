@@ -20,5 +20,9 @@ ln -s $(pwd)/tmux/tmux.conf ~/.tmux.conf
 # We can't symlink this one (/home won't be mounted yet)
 cp $(pwd)/xkb/us /usr/share/X11/xkb/symbols/us
 
+# Install fonts and refresh font cache
+cp -r $(pwd)/fonts/agave-nerd-font /usr/share/fonts/
+fc-cache -fv
+
 # Set time locale to have monday as first day of the week
 localectl set-locale LC_TIME=en_DK.UTF-8
