@@ -12,6 +12,7 @@ Some of my personal dotfiles.
 - [Fish](./fish)
   - Enhanced with [plugins](./fish/fish_plugins)
   - Custom git [abbreviations](./fish/abbreviations.fish)
+  - [exa](https://github.com/ogham/exa) - a modern replacement for `ls`
 - [tmux](./tmux/)
   - Enhanced with plugins using [tpm](https://github.com/tmux-plugins/tpm)
 - [xkb](./xkb/) custom keyboard layout

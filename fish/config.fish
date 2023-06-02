@@ -8,14 +8,7 @@ if status is-interactive
 end
 
 # --- Aliases ---
-
-# Epitech aliases
-alias epitest='docker run --rm -it -v $PWD:/home/ -w /home --network none epitechcontent/epitest-docker /bin/bash'
-
-# Utils aliases
-alias sn='shutdown now'
-alias e='clear && exit'
-alias u='sudo dnf upgrade && sudo dnf autoremove -y'
+source ~/.config/fish/aliases.fish
 
 
 # -- Keybindings --
