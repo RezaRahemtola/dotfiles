@@ -16,3 +16,6 @@ end
 alias l='ls'
 alias ll='ls -l'
 alias la='ls -a'
+
+# bat instead of cat
+alias cat='bat --paging=never --style=grid'
