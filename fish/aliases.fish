@@ -19,3 +19,6 @@ alias la='ls -a'
 
 # bat instead of cat
 alias cat='bat --paging=never --style=grid'
+
+# docker-compose v2
+alias docker-compose='docker compose'
