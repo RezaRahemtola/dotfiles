@@ -89,15 +89,5 @@
     {
         "key": "alt+r",
         "command": "workbench.action.reloadWindow"
-    },
-
-    // MDX Preview with the same shortcut as Markdown
-    {
-        "key": "ctrl+shift+v",
-        "command": "mdx-preview.commands.openPreview"
-    },
-    {
-        "key": "ctrl+k x",
-        "command": "-mdx-preview.commands.openPreview"
     }
 ]
