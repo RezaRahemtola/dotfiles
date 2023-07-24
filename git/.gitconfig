@@ -1,7 +1,7 @@
 [user]
 	name = Reza Rahemtola
 	email = reza.rahemtola@epitech.eu
-	signingkey = 7F008C62337360ED
+	signingkey = /home/reza/.ssh/id_rsa
 
 [core]
 	excludesfile = ~/.gitignore
@@ -40,3 +40,5 @@
 
 [rebase]
 	autostash = true  # Create a temporary stash entry before the operation begins.
+[gpg]
+	format = ssh
