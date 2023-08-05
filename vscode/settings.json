@@ -20,6 +20,7 @@
 		"source.organizeImports",
 		"source.fixAll"
 	],
+	"editor.formatOnSave": true,
 	"editor.inlineSuggest.enabled": true,
 	"editor.linkedEditing": true,
 	"editor.minimap.enabled": false,
@@ -69,7 +70,6 @@
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"[typescript][javascript][typescriptreact][javascriptreact]": {
 		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
-		"editor.formatOnSave": true,
 		"editor.tabSize": 2
 	},
 
@@ -79,7 +79,6 @@
 
 	// Python
 	"[python]": {
-		"editor.formatOnSave": true,
 		"editor.tabSize": 4
 	},
 	"python.analysis.completeFunctionParens": true,
@@ -105,12 +104,10 @@
 	// JSON
 	"[json]": {
 		"editor.defaultFormatter": "vscode.json-language-features",
-		"editor.formatOnSave": true
 	},
 
 	// Dart
 	"[dart]": {
-		"editor.formatOnSave": true,
 		"editor.formatOnType": true,
 		"editor.rulers": [80],
 		"editor.selectionHighlight": false,
@@ -133,10 +130,8 @@
 	// Haskell
 	"haskell.manageHLS": "GHCup",
 	"haskell.formattingProvider": "floskell",
-	"[haskell]": {
-		"editor.formatOnSave": true
-	},
 
+	// HTML
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
