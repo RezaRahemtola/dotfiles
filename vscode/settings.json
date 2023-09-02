@@ -93,10 +93,8 @@
 	},
 	"svelte.enable-ts-plugin": true,
 
-	// Markdown / Text
-	"[markdown][plaintext]": {
-		"files.trimFinalNewlines": false,
-		"files.insertFinalNewline": false,
+	// Markdown
+	"[markdown]": {
 		"files.trimTrailingWhitespace": false
 	},
 	"markdown.validate.enabled": true,
@@ -168,6 +166,10 @@
 
 	// GitHub Copilot
 	"github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false,
 		"[markdown][plaintext][json][yaml][jsonc]": false
 	},
 
