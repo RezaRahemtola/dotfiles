@@ -15,7 +15,7 @@ rm -rf ~/.config/fish
 ln -s $(pwd)/fish ~/.config/fish
 
 rm -rf ~/.tmux.conf
-ln -s $(pwd)/tmux/tmux.conf ~/.tmux.conf
+ln -s $(pwd)/tmux/.tmux.conf ~/.tmux.conf
 
 # We can't symlink this one (/home won't be mounted yet)
 cp $(pwd)/xkb/us /usr/share/X11/xkb/symbols/us
