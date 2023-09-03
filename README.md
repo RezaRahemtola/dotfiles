@@ -16,6 +16,7 @@ Some of my personal dotfiles.
   - [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings
 - [tmux](./tmux/)
   - Enhanced with plugins using [tpm](https://github.com/tmux-plugins/tpm)
+  - [Catppuccin Theme](https://github.com/catppuccin/tmux) with custom status modules
 - [xkb](./xkb/) custom keyboard layout
   - `English (US, intl., with dead keys)` [quotes "" access simplified](./xkb/us#L128)
 
