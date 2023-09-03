@@ -17,6 +17,7 @@ Some of my personal dotfiles.
 - [tmux](./tmux/)
   - Enhanced with plugins using [tpm](https://github.com/tmux-plugins/tpm)
   - [Catppuccin Theme](https://github.com/catppuccin/tmux) with custom status modules
+  - [gitmux](https://github.com/arl/gitmux)
 - [xkb](./xkb/) custom keyboard layout
   - `English (US, intl., with dead keys)` [quotes "" access simplified](./xkb/us#L128)
 
