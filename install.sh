@@ -16,6 +16,8 @@ ln -s $(pwd)/fish ~/.config/fish
 
 rm -rf ~/.tmux.conf
 ln -s $(pwd)/tmux/.tmux.conf ~/.tmux.conf
+rm -rf ~/.gitmux.conf
+ln -s $(pwd)/tmux/.gitmux.conf ~/.gitmux.conf
 rm -rf ~/.tmux/plugins/tmux/custom
 ln -s $(pwd)/tmux/modules/ ~/.tmux/plugins/tmux/custom
 
