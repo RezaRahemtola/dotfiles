@@ -101,7 +101,7 @@
 
 	// JSON
 	"[json]": {
-		"editor.defaultFormatter": "vscode.json-language-features",
+		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 
 	// Dart
@@ -180,9 +180,11 @@
 	],
 	"cSpell.showStatus": false,
 	"cSpell.userWords": [
+		"dotenv",
 		"dotfiles",
 		"epitech",
 		"hackathon",
+		"infisical",
 		"IPFS",
 		"nuxt",
 		"pathwar",
@@ -190,8 +192,15 @@
 		"quickstart",
 		"Rahemtola",
 		"Reza",
+		"roadmap",
 		"scaleway",
+		"signin",
+		"signup",
+		"supabase",
 		"tokenomics",
+		"venv",
+		"vercel",
+		"vite",
 		"wagmi"
 	],
 
