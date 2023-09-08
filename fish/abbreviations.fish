@@ -26,4 +26,4 @@ abbr -a -- gstp 'git stash pop'
 abbr -a -- gsw 'git switch'
 
 # Docker
-abbr -a -- docc 'docker compose'
+abbr -a -- dcda 'docker compose down --remove-orphans --rmi all -v'
