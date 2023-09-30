@@ -11,7 +11,7 @@ Some of my personal dotfiles.
   - [delta](https://github.com/dandavison/delta) - Diff tool with syntax highlighting
 - [Fish](./fish)
   - Enhanced with [plugins](./fish/fish_plugins)
-  - Custom git [abbreviations](./fish/abbreviations.fish)
+  - Custom abbreviations for [git](./fish/abbreviations/git.fish) and [docker](./fish/abbreviations/docker.fish)
   - [exa](https://github.com/ogham/exa) - a modern replacement for `ls`
   - [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings
 - [tmux](./tmux/)

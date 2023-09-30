@@ -4,7 +4,7 @@ set -x VISUAL code
 
 
 if status is-interactive
-  source ~/.config/fish/abbreviations.fish
+  source ~/.config/fish/abbreviations/index.fish
 end
 
 # --- Aliases ---
