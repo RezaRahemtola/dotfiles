@@ -1,7 +1,10 @@
 # Docker
+abbr -a -- dcb 'docker compose build'
 abbr -a -- dcd 'docker compose down'
 abbr -a -- dcda 'docker compose down --remove-orphans --rmi all -v'
 abbr -a -- dcu 'docker compose up'
+abbr -a -- dps 'docker ps'
+abbr -a -- dpsa 'docker ps -a'
 
 function docker_rmv
     string match --quiet 'docker rmv ' -- (commandline -j); or return 1
