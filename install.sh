@@ -21,6 +21,9 @@ ln -s $(pwd)/tmux/.gitmux.conf ~/.gitmux.conf
 rm -rf ~/.tmux/plugins/tmux/custom
 ln -s $(pwd)/tmux/modules/ ~/.tmux/plugins/tmux/custom
 
+rm -rf ~/brain/.obsidian
+ln -s $(pwd)/obsidian ~/brain/.obsidian
+
 # We can't symlink this one (/home won't be mounted yet)
 cp $(pwd)/xkb/us /usr/share/X11/xkb/symbols/us
 
