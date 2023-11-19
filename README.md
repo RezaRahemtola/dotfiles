@@ -20,6 +20,8 @@ Some of my personal dotfiles.
   - [gitmux](https://github.com/arl/gitmux)
 - [xkb](./xkb/) custom keyboard layout
   - `English (US, intl., with dead keys)` [quotes "" access simplified](./xkb/us#L128)
+- [Obsidian](https://obsidian.md/)
+  - [Brain](https://brain.rezar.fr) vault config files
 
 ## Installation
 
