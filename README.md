@@ -12,7 +12,7 @@ Some of my personal dotfiles.
 - [Fish](./fish)
   - Enhanced with [plugins](./fish/fish_plugins)
   - Custom abbreviations for [git](./fish/abbreviations/git.fish) and [docker](./fish/abbreviations/docker.fish)
-  - [exa](https://github.com/ogham/exa) - a modern replacement for `ls`
+  - [eza](https://github.com/eza-community/eza) - a modern replacement for `ls`
   - [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings
 - [tmux](./tmux/)
   - Enhanced with plugins using [tpm](https://github.com/tmux-plugins/tpm)

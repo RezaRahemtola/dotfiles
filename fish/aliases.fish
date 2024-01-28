@@ -8,9 +8,9 @@ alias u='sudo dnf upgrade && sudo dnf autoremove -y'
 
 # exa instead of ls
 if test "$TERM_PROGRAM" != "vscode"
-  alias ls='exa --icons'
+  alias ls='eza --icons'
 else
-  alias ls='exa'
+  alias ls='eza'
 end
 
 alias l='ls'
