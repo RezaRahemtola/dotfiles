@@ -14,6 +14,7 @@ Some of my personal dotfiles.
   - Custom abbreviations for [git](./fish/abbreviations/git.fish) and [docker](./fish/abbreviations/docker.fish)
   - [eza](https://github.com/eza-community/eza) - a modern replacement for `ls`
   - [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings
+  - [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
 - [tmux](./tmux/)
   - Enhanced with plugins using [tpm](https://github.com/tmux-plugins/tpm)
   - [Catppuccin Theme](https://github.com/catppuccin/tmux) with custom status modules

@@ -17,6 +17,9 @@ source ~/.config/fish/aliases.fish
 bind -k ppage history-token-search-backward
 bind -k npage history-token-search-forward
 
+# fzf
+fzf_configure_bindings --directory=\ch
+
 
 # --- Others ---
 
